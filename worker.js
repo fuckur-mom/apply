@@ -24,7 +24,7 @@ async function handleRequest(request) {
         }
     })
 
-    return new Response(await data.text(), {
+    return new Response(await data.arrayBuffer(), {
         headers: {
             ...headers,
             "Access-Control-Allow-Origin": request.headers.get("origin") || "*",
