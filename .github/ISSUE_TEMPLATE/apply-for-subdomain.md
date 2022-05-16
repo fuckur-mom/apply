@@ -2,7 +2,7 @@
 name: Apply for subdomain
 about: Apply for a subdomain according to the rules.
 title: "[Apply] Apply for subdomain: xxx.fuckur.mom"
-labels: ''
+labels: 'apply'
 assignees: ''
 
 ---
